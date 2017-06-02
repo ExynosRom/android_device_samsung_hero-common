@@ -160,6 +160,10 @@ const camera_metadata_t * camera_construct_default_request_settings(
         metadata.update(0x80010000, &oisOpMode, 1);
     }
 
+    /* enable realtime hdr by default */
+    const int32_t liveHdrLevel = 1;
+    metadata.update(0x80000002, &liveHdrLevel, 1);
+
     return metadata.release();
 }
 
