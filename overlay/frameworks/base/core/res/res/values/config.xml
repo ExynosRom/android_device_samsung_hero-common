@@ -266,5 +266,8 @@
 
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+    
+     <!-- Whether home button can wake device -->
+     <bool name="config_homeCanWake">true</bool>
 
 </resources>
