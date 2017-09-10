@@ -80,8 +80,7 @@ PRODUCT_PACKAGES += \
 
 # hardware/samsung/AdvancedDisplay (MDNIE)
 PRODUCT_PACKAGES += \
-    SamsungDoze \
-    AdvancedDisplay
+    SamsungDoze
 
 # Radio
 PRODUCT_PACKAGES += \
