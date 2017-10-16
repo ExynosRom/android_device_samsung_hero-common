@@ -61,8 +61,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	libsamsung_symbols \
 	SamsungServiceMode \
-	Torch \
-	SamsungDoze
+	Torch
 
 # DTB Tool
 PRODUCT_PACKAGES += \
