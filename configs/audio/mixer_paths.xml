@@ -3926,12 +3926,12 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN1R Digital Volume" value="70" />
+		<ctl name="IN1R Digital Volume" value="160" />
 		<ctl name="LHPF1 Input 1 Volume" value="20" />
 	</path>
 
 	<path name="gain-media-2nd-mic">
-		<ctl name="IN3L Digital Volume" value="90" />
+		<ctl name="IN3L Digital Volume" value="110" />
 		<ctl name="LHPF2 Input 1 Volume" value="20" />
 	</path>
 
@@ -3953,9 +3953,9 @@
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
-		<ctl name="IN1R Digital Volume" value="125" />
+		<ctl name="IN1R Digital Volume" value="160" />
 		<ctl name="LHPF1 Input 1 Volume" value="32" />
-		<ctl name="IN3L Digital Volume" value="125" />
+		<ctl name="IN3L Digital Volume" value="160" />
 		<ctl name="LHPF2 Input 1 Volume" value="32" />
 	</path>
 
